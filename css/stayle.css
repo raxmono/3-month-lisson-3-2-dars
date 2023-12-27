@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+
+}
+header{
+    background-color: #363740;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   width: 285px;
+   transition: all 0.5s;
+    
+}
+
+.ras{
+    margin-left: 20px;
+    padding: 20px 0;
+}
+.ras>img{
+    width: 34.915px;
+height: 38.587px;
+flex-shrink: 0;
+margin-top: 3%;
+margin-left: 10px;
+
+
+}
+.ras >h1 {
+display: inline-block;
+ color:  #A4A6B3;
+font-family: Mulish;
+font-size: 19px;
+margin-left: 20px;
+
+}
+.nav-link{
+    margin-left: 10%;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #A4A6B3;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.2px;
+}
+
+
+#light-dark{
+     width: 15%;
+     height: 40px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 85%;
+    margin-left: 20px;
+}
+
+.dark  {
+    background: black;
+  }
+  
+  .dark  * {
+    color:white !important;
+  }
+  .text >p{
+    color:#A4A6B3 ;
+    margin-left: 60px;
+    margin-top: -30%;
+  }
+
+.row{
+    margin-top: -25%;
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-closed >header{
+    background-color:#463740;
+    width: 0px;
+    overflow: hidden;
+
+}
+.btn{
+    margin-top: 40px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    margin-left: 2%;
+    border-radius: 50%;
+   
+}
+
+.alt >img{
+width: 50.333px;
+height: 50.333px;
+flex-shrink: 0;
+border-radius: 50%;
+position: absolute;
+top: 5%;
+left: 95%;
+
+}
+
+.alt >p{
+    color:  #252733;
+text-align: right;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
+letter-spacing: 0.2px;
+position: absolute;
+top: 7%;
+left: 87%;
+
+}
+
+.text1{
+    position: absolute;
+    top: 17%;
+    left: 15%;
+    color: #000;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn-4{
+  width: 70px;
+  height: 34px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: none;
+    position: absolute;
+    top: 17%;
+    left: 95%;
+}
+
+.container{
+   margin-top: 15%;
+ width: 100%;
+  
+   
+}
+
+
+
+
+
+img{
+    width: 30px;
+    height: 30px;
+  
+}
+
+tbody tr{
+    height: 50px;
+    background-color: #FFF;
+    text-align: center;
+    transition: all 0.5s;
+   
+}
+tbody tr:nth-child(odd){
+    background-color:#EEF2F5;
+}
+
+
+
+
+
+
